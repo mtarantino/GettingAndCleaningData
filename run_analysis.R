@@ -180,4 +180,4 @@ subjects_tidy <- subjects_std_mean %>%
                  summarise_each(funs(mean))
 
 # Write dataframe to csv file
-write.table(subjects_tidy, file="subject_tidy.csv")
+write.table(subjects_tidy, file="subject_tidy.csv", row.name=FALSE)
