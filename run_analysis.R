@@ -1,6 +1,5 @@
 # Johns Hopkins Course : Getting and Cleaning Data
 # Course Project : Human Activity Recognition Using Smartphones 
-# Data cleaning
 
 # You should create one R script called run_analysis.R that does the following. 
 # 1. Merges the training and the test sets to create one data set.
@@ -182,11 +181,3 @@ subjects_tidy <- subjects_std_mean %>%
 
 # Write dataframe to csv file
 write.table(subjects_tidy, file="subject_tidy.csv")
-
-
-# 6. WRITE CODE BOOK
-#  VARIABLE NAME
-#  VARIABLE UNIT
-#  Define that the observation is a subject 
-#  and the variable are the values taken using the different device and aggreated used mean and std
-# HOW TO RUN THE PROGRAMM

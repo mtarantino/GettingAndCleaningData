@@ -18,20 +18,21 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 To run the analysis:  
   
-  1. Download the run_analysis.R file to your computer  
+  1. Download the [run_analysis.R](https://github.com/mtarantino/GettingAndCleaningData/blob/master/run_analysis.R) file to your computer  
   2. Execute the script. The script has been written using R version 3.2.2  
-  3. The script will create csv output file subject_tidy.csv. Codebook of the data set can be found in the codebook file in Rmd, md, html format.
+  3. The script will create csv output file [subject_tidy.csv](https://github.com/mtarantino/GettingAndCleaningData/blob/master/subject_tidy.csv). Codebook of the data set can be found in the [codebook.Rmd](https://github.com/mtarantino/GettingAndCleaningData/blob/master/codebook.Rmd) file
     
     
 ## Data cleaning step
  
 The run_analysis.R is doing the following data step :
 
- 0. (Optional) Downaload and unzip rqy dataset
+ 0. (Optional) Download and unzip the archived dataset
  1. Merges the training and the test sets to create one data set.  
  2. Extracts only the measurements on the mean and standard deviation for each measurement.  
  3. Uses descriptive activity names to name the activities in the data set  
  4. Appropriately labels the data set with descriptive variable names.  
  5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.  
 
- *Notes:* For more details, see in the read run_analysis.R filem it contains comment about the execution steps
+ *Notes:* For more details, see in the read [run_analysis.R](https://github.com/mtarantino/GettingAndCleaningData/blob/master/run_analysis.R) file, it contains comment about the execution steps
+ 

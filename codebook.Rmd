@@ -1,7 +1,7 @@
 # Codebook
 
 ## Description  
-This is the codebook describing the data contained into subject_tidy.csv file. The dataset described for each observation defines a subject (defined by subject_id), an activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) a set (test or train) and features variables described in the below section.
+This is the codebook describing the data contained into [subject_tidy.csv](https://github.com/mtarantino/GettingAndCleaningData/blob/master/subject_tidy.csv) file created using the script [run_analysis.R](https://github.com/mtarantino/GettingAndCleaningData/blob/master/run_analysis.R). The dataset described for each observation defines a subject (defined by subject_id), an activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) a set (test or train) and features variables described in the below section.
 
 ## Features info
 
