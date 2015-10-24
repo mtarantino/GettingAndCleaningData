@@ -1,0 +1,125 @@
+# Codebook
+
+## Description  
+This is the codebook describing the data contained into subject_tidy.csv file. The dataset described for each observation defines a subject (defined by subject_id), an activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) a set (test or train) and features variables described in the below section.
+
+## Features info
+
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+* tBodyAcc-XYZ  
+* tGravityAcc-XYZ  
+* tBodyAccJerk-XYZ  
+* tBodyGyro-XYZ  
+* tBodyGyroJerk-XYZ  
+* tBodyAccMag  
+* tGravityAccMag  
+* tBodyAccJerkMag  
+* tBodyGyroMag  
+* tBodyGyroJerkMag  
+* fBodyAcc-XYZ  
+* fBodyAccJerk-XYZ  
+* fBodyGyro-XYZ  
+* fBodyAccMag  
+* fBodyAccJerkMag  
+* fBodyGyroMag  
+* fBodyGyroJerkMag  
+
+The set of variables that were estimated from these signals are: 
+
+ * mean(): Mean value  
+ * std(): Standard deviation  
+ 
+# Variables list
+
+Variable name  | Description
+------------- | -------------
+subject_id | Subject ID
+Activity  | Activity  
+set  | subject set (train or test) 
+tBodyAcc-mean()-X |  See Feature info section  
+tBodyAcc-mean()-Y |    See Feature info section
+tBodyAcc-mean()-Z |    See Feature info section
+tGravityAcc-mean()-X |    See Feature info section
+tGravityAcc-mean()-Y |    See Feature info section
+tGravityAcc-mean()-Z |    See Feature info section
+tBodyAccJerk-mean()-X |    See Feature info section
+tBodyAccJerk-mean()-Y |    See Feature info section
+tBodyAccJerk-mean()-Z |    See Feature info section
+tBodyGyro-mean()-X |    See Feature info section
+tBodyGyro-mean()-Y |    See Feature info section
+tBodyGyro-mean()-Z |    See Feature info section
+tBodyGyroJerk-mean()-X |    See Feature info section
+tBodyGyroJerk-mean()-Y |    See Feature info section
+tBodyGyroJerk-mean()-Z |    See Feature info section
+tBodyAccMag-mean() |    See Feature info section
+tGravityAccMag-mean() |    See Feature info section
+tBodyAccJerkMag-mean() |    See Feature info section
+tBodyGyroMag-mean() |    See Feature info section
+tBodyGyroJerkMag-mean() |    See Feature info section
+fBodyAcc-mean()-X |    See Feature info section
+fBodyAcc-mean()-Y |    See Feature info section
+fBodyAcc-mean()-Z |    See Feature info section
+fBodyAcc-meanFreq()-X |    See Feature info section
+fBodyAcc-meanFreq()-Y |    See Feature info section
+fBodyAcc-meanFreq()-Z |    See Feature info section
+fBodyAccJerk-mean()-X |    See Feature info section
+fBodyAccJerk-mean()-Y |    See Feature info section
+fBodyAccJerk-mean()-Z |    See Feature info section
+fBodyAccJerk-meanFreq()-X |    See Feature info section
+fBodyAccJerk-meanFreq()-Y |    See Feature info section
+fBodyAccJerk-meanFreq()-Z |    See Feature info section
+fBodyGyro-mean()-X |    See Feature info section
+fBodyGyro-mean()-Y |    See Feature info section
+fBodyGyro-mean()-Z |    See Feature info section
+fBodyGyro-meanFreq()-X |    See Feature info section
+fBodyGyro-meanFreq()-Y |    See Feature info section
+fBodyGyro-meanFreq()-Z |    See Feature info section
+fBodyAccMag-mean() |    See Feature info section
+fBodyAccMag-meanFreq() |    See Feature info section
+fBodyBodyAccJerkMag-mean() |    See Feature info section
+fBodyBodyAccJerkMag-meanFreq() |    See Feature info section
+fBodyBodyGyroMag-mean() |    See Feature info section
+fBodyBodyGyroMag-meanFreq() |    See Feature info section
+fBodyBodyGyroJerkMag-mean() |    See Feature info section
+fBodyBodyGyroJerkMag-meanFreq() |    See Feature info section
+tBodyAcc-std()-X |    See Feature info section
+tBodyAcc-std()-Y |    See Feature info section
+tBodyAcc-std()-Z |    See Feature info section
+tGravityAcc-std()-X |    See Feature info section
+tGravityAcc-std()-Y |    See Feature info section
+tGravityAcc-std()-Z |    See Feature info section
+tBodyAccJerk-std()-X |    See Feature info section
+tBodyAccJerk-std()-Y |    See Feature info section
+tBodyAccJerk-std()-Z |    See Feature info section
+tBodyGyro-std()-X |    See Feature info section
+tBodyGyro-std()-Y |    See Feature info section
+tBodyGyro-std()-Z |    See Feature info section
+tBodyGyroJerk-std()-X |    See Feature info section
+tBodyGyroJerk-std()-Y |    See Feature info section
+tBodyGyroJerk-std()-Z |    See Feature info section
+tBodyAccMag-std() |    See Feature info section
+tGravityAccMag-std() |    See Feature info section
+tBodyAccJerkMag-std() |    See Feature info section
+tBodyGyroMag-std() |    See Feature info section
+tBodyGyroJerkMag-std() |    See Feature info section
+fBodyAcc-std()-X |    See Feature info section
+fBodyAcc-std()-Y |    See Feature info section
+fBodyAcc-std()-Z |    See Feature info section
+fBodyAccJerk-std()-X |    See Feature info section
+fBodyAccJerk-std()-Y |    See Feature info section
+fBodyAccJerk-std()-Z |    See Feature info section
+fBodyGyro-std()-X |    See Feature info section
+fBodyGyro-std()-Y |    See Feature info section
+fBodyGyro-std()-Z |    See Feature info section
+fBodyAccMag-std() |    See Feature info section
+fBodyBodyAccJerkMag-std() |    See Feature info section
+fBodyBodyGyroMag-std() |    See Feature info section
+fBodyBodyGyroJerkMag-std() |  See Feature info section
